@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	Pool *redis.Pool // exported variable
+	Pool *redis.Pool
 )
 
 func init() {
